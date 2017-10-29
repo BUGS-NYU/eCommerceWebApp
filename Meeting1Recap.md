@@ -18,14 +18,14 @@ Type in   http://localhost:8080/phpmyadmin (case sensitive)  and you should see 
 
 3)  Our website is going to have the following pages
 
-         website page                                        people working on it
-Product page                                                 - Daniel
-Search bar
-Menu (header)
-Payment - checkout page / cart                               - Sameer
-login/sign up                                                - Aubrey
-User dashboard
-Landing page                                                - Rahayma
+           website page                                        people working on it
+           Product page                                                 - Daniel
+           Search bar
+           Menu (header)
+           Payment - checkout page / cart                               - Sameer
+           login/sign up                                                - Aubrey
+           User dashboard
+           Landing page                                                - Rahayma
 
 Please pick a page you want to work on and reply to this email, you will be responsible for the page but you can always contribute to other pages and branch out
 
@@ -36,15 +36,17 @@ Please pick a page you want to work on and reply to this email, you will be resp
 
 5) To play with HTML/CSS or to learn more, check out W3Schools
 
-6) Hpw do you want our future sessions to be ?
-    option 1 : (atleast 90 minutes)
+6) How do you want our future sessions to be ?
+        option 1 : (atleast 90 minutes):
+        
         Meeting 2 -  Class on HTML and some CSS 
         Meeting 3 -  Class on SQL , CSS & some PHP Class
         Meeting 4 -   Class on PHP and website Help
         Meeting 5 -  Javascript
         Meeting 6 - API handling, jQuery
-    option 2 :
-        provide resources and offer help sessions during Meetings
+        
+        option 2 :
+               provide resources and offer help sessions during Meetings
 
 Please select a option and reply to this email
 
