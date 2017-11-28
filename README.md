@@ -1,6 +1,6 @@
 # eCommerceWebApp
 # Description of project:
-We are working on building a full functional ecommerce website like Amazon,ebay etc. The main focus will be on learning most popular Frontend & Backend technologies will working on the site.
+We are working on building a full functional ecommerce website like Amazon,ebay etc. The main focus will be on learning the most popular Frontend & Backend technologies will working on the site.
 
 FRONTEND :
 HTML 
