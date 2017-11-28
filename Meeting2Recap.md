@@ -1,6 +1,6 @@
 Hi Guys!,
 
-This a recap for out second meeting.
+This a recap for our second meeting.
 1) we assigned pages to mentee's 
 2) we learnt about HTML & CSS in depth
     a) forms (POST / GET)
