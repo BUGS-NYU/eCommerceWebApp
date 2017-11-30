@@ -12,7 +12,7 @@ PHP
 JavaScript w/jQUERY
 
 BACKEND:
-Data Warehosuing
+Data Warehousing
 SQL
 
 SOFTWARE:
