@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+         <title> Landing Page</title>
+        
+             <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,500" rel="stylesheet">
+         <!-- Bootstrap CSS CDN -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+            <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+            
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+        
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>  
+
+            <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+           
+            <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+
+            <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">    
+    
+    <style>
+        #dropdownMenuLink{
+            background: transparent !important;
+            color:grey;
+         border: none;
+            margin-top:2px;
+            
+            
+        }
+    
+        .navbar{
+            color:white;
+            
+        }
+    
+        .navbar li{
+            color: white;
+            margin-right:40px; 
+        }
+        #brand-name{
+            color:white;
+        
+        }
+        .bod{
+            border:1px solid black;
+
+        }
+        #row1,#row2{
+            padding:0px 150px !important;
+            height: 50vh;
+        }
+        .custom-hr{
+            border-bottom: 3px solid black;
+            width:15%;
+        }
+
+        .icons {
+          padding: 30px;
+          padding-left: 50px;
+          font-size: 30px;
+        }
+
+        #main{
+            height: 100%;
+            width:100%;
+            padding: 0px !important;
+        }
+        #sub-text{
+            margin: 30px 0px;
+            font-size: 30px;
+        }
+
+        #social-media {
+          margin-top: 50px;
+          font-size: 30px;
+        }
+        
+        #card-outer-align{
+            padding:0px 40px;
+        }
+
+        #topright {
+          background-color: #6FAEEB;
+        }
+
+        #topleft {
+          background-image: url(kitchen.jpg);
+        }
+
+        #bottomright {
+          background-image: url(electronics.jpg);
+        }
+
+        #bottomleft {
+          background-color: #ECE409
+        }
+
+        .center-in{
+            position: absolute;
+            top:30%;
+            width: 100% !important;
+            bottom:30%;
+        }
+        .font1{
+            font-size:200%;
+            font-weight: 600;
+            line-height: 30px;
+        }
+        
+        .font2{
+            font-size:120%;
+            font-weight: 500;
+            line-height: 50px;
+        }
+
+         #carouselExampleControls
+        {
+        
+            height:100%;
+        }
+        #carouselExampleControls img{
+            height:70%;
+            width:100%;
+        }
+
+      
+
+        
+        
+    </style>
+    
+    
+    </head>
+    
+    
+     <body>
+        
+        <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a class="navbar-brand" href="#">LOGO</a>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mx-auto">
+        <li class="nav-item">
+        <a id="brand-name" class="nav-link" href="#">KITCHEN</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+          <div class="dropdown show">
+          <a class="btn btn-secondary dropdown-toggle" href="https://example.com" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    COLLECTION
+  </a>
+
+  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+    <a class="dropdown-item" href="#">MEN</a>
+    <a class="dropdown-item" href="#">WOMEN</a>
+      </div>
+          </div>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">ELECTRONICS</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">CUSTOMER CARE</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">VISIT US</a>
+      </li>
+      
+        </ul>
+            </div>
+         
+         </nav>
+         
+         
+         
+         <div id="main" class="container-fluid">
+         
+         <div id="row1" class="row">
+             
+             <div class="well col-md-6 text-center bod" id="topleft"></div>
+             <div class="well col-md-6 text-center bod" id="topright">
+                 <div class="center-in">
+                 <p class="font1">ELEGANT & SMART</p>
+                     <p class="font2">LATEST IN KITCHENWARE</p>
+                     
+                     <hr class="custom-hr">
+                 </div>
+                 
+             </div>
+             
+             
+          </div>
+             
+             
+             
+             
+             
+         <div id="row2" class="row">
+             
+              <div class="well col-md-6 text-center bod" id="bottomleft">
+                <div class="center-in">
+                <p class="font1">HOTTEST GADGETS</p>
+                       <p class="font2">SHOP NOW</p>
+                       
+                       <hr class="custom-hr">
+                </div>
+              </div>
+             <div class="well col-md-6 text-center bod" id="bottomright"></div>
+            
+             
+          </div>
+         
+             
+          <div id="sub-text" class="container-fluid text-center">NEW ARRIVALS</div>
+         
+         
+         <div id="card-outer-align" class="card-deck">
+
+          <div class="container-fluid">
+  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+     <div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="appliance.jpg" alt="Kitchen Appliance Image" >
+    <div class="card-body">
+      <h5 class="card-title">Cooking Appliances</h5>
+      <p class="card-text">State-of-the-art, stainless steel kitchen appliances designed for the modern kitchen.</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="smartdisplay.png" alt="Smart display Image" >
+    <div class="card-body">
+      <h5 class="card-title">Smart Home Devices</h5>
+      <p class="card-text">Your future home is here. It's time for an upgrade.</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="fashion.jpg" alt="Sunglasses Image">
+    <div class="card-body">
+      <h5 class="card-title">Accessories</h5>
+      <p class="card-text">Up your style game with these trendy additions to your outfits.</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  </div>
+    </div>
+    <div class="carousel-item">
+    <div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="menstyle.png" alt="Male Model Image">
+    <div class="card-body">
+      <h5 class="card-title">Men's Fashion</h5>
+      <p class="card-text">Check out the latest looks for Spring.</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="utensils.jpg" alt="Utensils Image" >
+    <div class="card-body">
+      <h5 class="card-title">Kitchen Utensils</h5>
+      <p class="card-text">Step into the modern kitchen. Your kitchen.</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="watch.jpg" alt="Watch Image" >
+    <div class="card-body">
+      <h5 class="card-title">Classic Watches</h5>
+      <p class="card-text">Some things never go out of style. The perfect timepiece for any occassion.</p>
+      <p class="card-text"><small class="text-muted"></small></p>
+    </div>
+  </div>
+  </div>
+    </div>
+    
+  </div>
+  <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+</div>
+</div>
+</div>
+<div class="container-fluid">
+      <div class="row">
+        <div id="social-media" class="container-fluid text-center">Follow us on social media: </div>
+      </div>
+      <div class="row icons text-center">
+        <div class="col-md-4">
+          <i class="fab fa-facebook-f"></i>
+        </div>
+        <div class="col-md-4">
+          <i class="fab fa-twitter"></i>
+        </div>
+        <div class="col-md-4">
+          <i class="fab fa-instagram"></i>
+        </div>
+      </div>
+</div>
+</div>
+
+
+         
+         
+        
+        
+    </body>
+
+</html>
