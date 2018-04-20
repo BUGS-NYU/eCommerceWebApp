@@ -19,13 +19,15 @@ Type in   http://localhost:8080/phpmyadmin (case sensitive)  and you should see 
 3)  Our website is going to have the following pages
 
            website page                                        people working on it
-           Product page                                                 - Daniel
+           Product page                                                
            Search bar
            Menu (header)
-           Payment - checkout page / cart                               - Sameer
-           login/sign up                                                - Aubrey
+           Payment - checkout page / cart                           
+           login/sign up                                              
            User dashboard
-           Landing page                                                - Rahayma
+           Landing page                                               
+Front end - Sameer
+Backend - GP , David
 
 Please pick a page you want to work on and reply to this email, you will be responsible for the page but you can always contribute to other pages and branch out
 
